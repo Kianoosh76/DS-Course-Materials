@@ -1,1 +1,5 @@
-.idea/
+.idea/*
+!.idea/study_project.xml
+
+**/.DS_Store
+**.log
