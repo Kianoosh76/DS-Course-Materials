@@ -1,5 +1,6 @@
 .idea/*
 !.idea/study_project.xml
+!.idea/modules.xml
 
 **/.DS_Store
 **.log
