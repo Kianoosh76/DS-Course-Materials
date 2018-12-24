@@ -218,6 +218,12 @@ def check_samples(samples=()):
     passed()
 
 
+def test_function(answer, func, *f_args):
+    output = func(*f_args)
+    if output != answer:
+        failed("Wrong Answer! Input: {}, your output: {}, answer: {}".format(f_args, output, answer))
+
+
 def run_common_tests(error_text="Please, reload file and try again"):
     test_is_not_empty()
     test_answer_placeholders_text_deleted()
