@@ -1,4 +1,4 @@
-def loser_bound(A, x):
+def lower_bound(A, x):
     if A[0] >= x:
         return -1
     ans = 0
