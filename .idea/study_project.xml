@@ -367,7 +367,7 @@
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p dir=&quot;rtl&quot;&gt;&#10;    پیشنیاز:&#10;    &lt;br&gt;&#10;دفترچه پیمایش و ذخیره سازی درخت&#10;    &lt;br&gt;&#10;&lt;/p&gt;&#10;&lt;p dir=&quot;rtl&quot;&gt;&#10;    وظیفه اول:&#10;    &lt;br&gt;&#10;    انواع روش‌های ذخیره‌سازی درخت و چند داستان دیگر!&#10;    &lt;br&gt;&#10;    سوال:&#10;    &lt;br&gt;&#10;    تشخیص دهید که برای یک درخت دودویی ورودی که ریشه آن به شما داده شده است، آیا آن درخت ، یک درخت قرینه هست یا نه.&#10;    &lt;br&gt;&#10;    درخت قرینه درختی است که نسبت به خود آیینه است. مثلا درخت زیر یک درخت قرینه است.&#10;&lt;/p&gt;&#10;&#10;&lt;pre&gt;     1&#10;   /   \&#10;  2     2&#10; / \   / \&#10;3   4 4   3&lt;/pre&gt;&#10;&#10;&lt;p dir=&quot;rtl&quot;&gt;&#10;    توضیحات: یک روش ذخیره‌سازی درخت را در دفترچه مربوطه دیدید.(leftchild, rightsibling)&#10;    .&#10;&#10;    حال سعی کنید روش دیگری برای ذخیره‌سازی درخت اتخاذ کنید که در حل سوال انعطاف بیشتری به شما بدهد.(کلا به چند روش میتوان درخت را ذخیره کرد ؟ )&#10;    &lt;br&gt;&#10;    &lt;br&gt;&#10;&#10;&lt;/p&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;    &lt;p dir=&quot;rtl&quot;&gt;&#10;        یکی از روشهای پر کاربرد ذخیره سازی درخت ها ، استفاده از شی برای هر راس است که آن شی دارای اشاره گر به فرزند چپ و راست خود(در درخت دودویی) می باشد. نقطه قوت این نوع ذخیره سازی، ایجاد امکان فکر کردن به صورت بازگشتی به مسئله می‌ باشد!&#10;    &lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -385,9 +385,204 @@
                             <value>
                               <TaskFile>
                                 <option name="answerPlaceholders">
-                                  <list />
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="4" />
+                                      <option name="offset" value="51" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="pass" />
+                                      <option name="possibleAnswer" value="self.value = value&#10;        self.left = None&#10;        self.right = None" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="1" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="12" />
+                                      <option name="offset" value="153" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="return False" />
+                                      <option name="possibleAnswer" value="if root1 is None and root2 is None:&#10;        return True&#10;    if root1 is not None and root2 is not None:&#10;        if root1.value == root2.value:&#10;            return (mirror(root1.left, root2.right) and&#10;                    mirror(root1.right, root2.left))&#10;    return False" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p dir=&quot;rtl&quot;&gt;&#10;    پیشنیاز:&#10;    &lt;br&gt;&#10;دفترچه پیمایش و ذخیره سازی درخت&#10;    &lt;br&gt;&#10;&lt;/p&gt;&#10;&lt;p dir=&quot;rtl&quot;&gt;&#10;    وظیفه دوم:&#10;    &lt;br&gt;&#10;پیمایش عمودی درخت !&#10;    &lt;br&gt;&#10;    سوال:&#10;    &lt;br&gt;&#10;برای یک درخت دودویی که ریشه آن به شما داده شده است، آنرا به صورت عمودی پیمایش کنید.(خروجی به صورت لیستی از لیستها می بایست باشد)&#10;    &lt;br&gt;&#10;به عنوان مثال برای درخت زیر داریم:&#10;&lt;/p&gt;&#10;&lt;pre&gt;           1&#10;        /    \&#10;       2      3&#10;      / \    / \&#10;     4   5  6   7&#10;             \   \&#10;              8   9&lt;/pre&gt;&#10;&lt;p dir=&quot;rtl&quot;&gt;&#10;  که پیمایش عمودی آن به صورت زیر است:&#10;&lt;/p&gt;&#10;&lt;pre&gt;[[4], [2], [1, 5, 6], [3, 8], [7], [9]]&#10;&lt;/pre&gt;&#10;&lt;p dir=&quot;rtl&quot;&gt;&#10;  توضیحات:&#10;  &lt;br&gt;&#10;  علاوه بر روش های پیمایش معروف و پرکاربردی که دیده اید، روش های پیمایش مختلف و زیادی دیگری برای درخت وجود دارد . تعدادی از معروف ترین آنها عبارتد از: level, spiral, specific, ... که در صورت علاقه می توانید درباره آنها مطالعه کنید.&#10;&lt;/p&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;    &lt;p dir=&quot;rtl&quot;&gt;&#10;عددهایی که در یک ستون قرار می گیرند دارای چه ویژگی مشترکی هستند ؟&#10;    &lt;/p&gt;&#10;&lt;/div&gt;&#10;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="2" />
+                      <option name="name" value="Tree Storage - Traversal Task2" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="0" />
+                                      <option name="offset" value="123" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="" />
+                                      <option name="possibleAnswer" value="minimum = 0&#10;maximum = 0&#10;&#10;&#10;def find_left_right(node, distance):&#10;    global minimum, maximum&#10;    if node is None:&#10;        return&#10;    if distance &lt; minimum:&#10;        minimum = distance&#10;    elif distance &gt; maximum:&#10;        maximum = distance&#10;    find_left_right(node.left, distance - 1)&#10;    find_left_right(node.right, distance + 1)&#10;&#10;&#10;def vertical(node, column, distance, list):&#10;    if node is None:&#10;        return&#10;&#10;    if distance == column:&#10;        list[-1].append(node.value)&#10;&#10;    vertical(node.left, column, distance - 1, list)&#10;    vertical(node.right, column, distance + 1, list)&#10;" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="1" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="50" />
+                                      <option name="offset" value="748" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="#your solution, return a list as shown in question" />
+                                      <option name="possibleAnswer" value="global minimum, maximum&#10;    find_left_right(root, 0)&#10;    for column in range(minimum, maximum + 1):&#10;        list.append([])&#10;        vertical(root, column, 0, list)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p dir=&quot;rtl&quot;&gt;&#10;    پیشنیاز:&#10;    &lt;br&gt;&#10;دفترچه پیمایش و ذخیره سازی درخت&#10;    &lt;br&gt;&#10;&lt;/p&gt;&#10;&lt;p dir=&quot;rtl&quot;&gt;&#10;    وظیفه سوم:&#10;    &lt;br&gt;&#10;یکی بودن یا نبودن، مسئله این است!&#10;    &lt;br&gt;&#10;    سوال:&#10;    &lt;br&gt;&#10;به شما ۳ آرایه از اعداد داده شده است که نشان دهنده پیمایش های پیش ترتیب ، میان ترتیب و پس ترتیب می باشند. بررسی کنید که آیا این ۳ پیمایش ، پیمایش مربوط به یک درخت یکسان بوده اند یا نه! (درخت ها دودویی هستند)&#10;    &lt;/p&gt;&#10;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="3" />
+                      <option name="name" value="Tree Storage - Traversal Task3" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="0" />
+                                      <option name="offset" value="123" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="" />
+                                      <option name="possibleAnswer" value="def buildTree(preorder, inorder):&#10;    if len(preorder) == 0:&#10;        return&#10;    if len(preorder) == 1:&#10;        return Node(preorder[0])&#10;    root = Node(preorder[0])&#10;    div = inorder.index(preorder[0])&#10;    root.left = buildTree(preorder[1:(div + 1)], inorder[0:div])&#10;    root.right = buildTree(preorder[(div + 1):], inorder[(div + 1):])&#10;    return root&#10;&#10;&#10;def postorder_traversal(root, list):&#10;    if root:&#10;        if root.left:&#10;            postorder_traversal(root.left, list)&#10;        if root.right:&#10;            postorder_traversal(root.right, list)&#10;        list.append(root.value)&#10;        return list&#10;" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="1" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="0" />
+                                      <option name="offset" value="771" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="" />
+                                      <option name="possibleAnswer" value="root = buildTree(preorder, inorder)&#10;    root_postorder = postorder_traversal(root, [])&#10;    if postorder == root_postorder:&#10;        return True" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="task.py" />
                                 <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -419,7 +614,7 @@
                           <option name="type" value="STEPIK" />
                         </FeedbackLink>
                       </option>
-                      <option name="index" value="2" />
+                      <option name="index" value="4" />
                       <option name="name" value="Trie" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
@@ -464,7 +659,7 @@
                           <option name="type" value="STEPIK" />
                         </FeedbackLink>
                       </option>
-                      <option name="index" value="3" />
+                      <option name="index" value="5" />
                       <option name="name" value="BST" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
@@ -509,7 +704,7 @@
                           <option name="type" value="STEPIK" />
                         </FeedbackLink>
                       </option>
-                      <option name="index" value="4" />
+                      <option name="index" value="6" />
                       <option name="name" value="Heap" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
