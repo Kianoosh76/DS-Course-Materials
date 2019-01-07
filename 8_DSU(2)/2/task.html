@@ -1,6 +1,6 @@
 <html>
 Requirements: <br>
-Read the DSU notebook. <br>
+Be familiar with the concept of DSU.
 <br>
 <h1>Matin & Kianoosh</h1>
 <br><br>
@@ -51,6 +51,25 @@ output = [7, [('l', 'e'), ('e', 'd'), ('d', 'c'), ('p', 'c'),
 
 
 <div class="hint">
-  You can add hints anywhere in task text. Copy all hint div block and change its content.
+  Try to imagine a rule as a permanent edge between the two characters.
 </div>
+
+<div class="hint">
+  If ('a', 'b') and ('a', 'c') are two of the rules do we need ('b', 'c')?
+</div>
+
+<div class="hint">
+  In order to be able to change k letters into one another, you'll need k-1 rules.
+</div>
+
+<div class="hint">
+  Whenever a rule is added, it works exactly as a union in their respective DSUs.
+</div>
+
+<div class="hint">
+  Define a 26 sized DSU. Whenever two characters are different,
+  they need to be in the same DSU in the end. So unite them!
+</div>
+
+
 </html>

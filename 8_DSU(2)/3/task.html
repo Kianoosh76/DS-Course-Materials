@@ -1,0 +1,62 @@
+<html>
+Requirements: <br>
+Be familiar with the concept of DSU.
+<br>
+<h1>Slippery slopes</h1>
+<br><br>
+
+Kianoosh and n-1 others are trapped in an ice cave. Imagine the cave as a plane. The n people
+are standing in n distinct points. Kianoosh decides to go and say hi to each one. But
+in order to do so, he can only move up, down, right and left. But the floor is slippery so
+he will keep sliding in that direction until he reaches one of the other people who will stop him.
+<br>
+Unfortunately there might need to be more stopping points in the cave to reach everyone. You
+must find the minimum amount of extra stopping points needed to ensure he can reach everyone.
+
+<br>
+You must fill in the solve function which takes in n, and a list of tuples with each points
+coordinates.
+<br>
+The function must output a single number. The minimum amount of extra stopping points needed
+to reach every point.
+<br>
+<br>
+It is known that 1 &le; n &le; 100, 1 &le; x<sub>i</sub>, y<sub>i</sub> &le; 1000
+
+<br>
+
+<h3>Examples</h3>
+
+<h4>Example 1</h4>
+n = 2 <br>
+points = [(2, 1), (1, 2)] <br>
+output = 1 <br>
+
+<h4>Example 2</h4>
+n = 2 <br>
+points = [(2, 1), (4, 1)] <br>
+output = 0 <br>
+
+
+<div class="hint">
+    If you can get from A to B and from B to C, then you can get from A to C.
+</div>
+
+<div class="hint">
+    Consider points where you can go from each one to the others. What happens if you add a new stop point?
+</div>
+
+<div class="hint">
+    You can go directly from A to B if A.x = B.y or A.y = B.y
+</div>
+
+<div class="hint">
+    Make a new DSU with n sets, each for one point. If you can go directly from A to B, then
+    unite their sets. Now how many stopping points do we need?
+</div>
+
+
+
+
+
+</html>
