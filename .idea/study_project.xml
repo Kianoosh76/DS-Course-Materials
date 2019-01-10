@@ -251,7 +251,7 @@
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Prerequisite: &lt;br&gt;&#10;Read the complexity analysis notebook.&lt;br&gt;&lt;br&gt;&#10;&#10;Complete the answers&#10;&lt;br&gt;&#10;&#10;&lt;div&gt;&#10;  &lt;h3&gt;Question1&lt;/h3&gt;&#10;  &lt;strong&gt;&#10;    T(n) = T(n - 1) + log(n) * 100&#10;  &lt;br&gt;&#10;    1) &lt;i&gt; O(n ^ 2)&lt;/i&gt; &lt;/br&gt;&#10;    2) &lt;i&gt; O(n)&lt;/i&gt; &lt;/br&gt;&#10;    3) &lt;i&gt; O(n * log(n) ^ 2)&lt;/i&gt; &lt;/br&gt;&#10;    4) &lt;i&gt; O(n * log(n))&lt;/i&gt; &lt;/br&gt;&#10;  &lt;/strong&gt;&#10;  &lt;h3&gt;Question2&lt;/h3&gt;&#10;  &lt;strong&gt;&#10;    T(n) = T(sqrt(n)) * 2 + log(n)&#10;  &lt;br&gt;&#10;    1) &lt;i&gt; O(log(n))&lt;/i&gt; &lt;/br&gt;&#10;    2) &lt;i&gt; O(sqrt(n) * log(n))&lt;/i&gt; &lt;/br&gt;&#10;    3) &lt;i&gt; O(log(n) * log(log(n)))&lt;/i&gt; &lt;/br&gt;&#10;    4) &lt;i&gt; O(sqrt(n))&lt;/i&gt; &lt;/br&gt;&#10;  &lt;/strong&gt;&#10;&lt;/div&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -271,7 +271,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="task.py" />
                                 <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
