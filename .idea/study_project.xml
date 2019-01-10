@@ -663,7 +663,7 @@
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Prerequisite: &lt;br&gt;&#10;Read the hashing notebook.&lt;br&gt;&lt;br&gt;&#10;&#10;Task: &lt;br&gt;&#10;Complete the function answer. Given an array of integers arr your&#10;function has to check if there exist four elements in the array such that&#10;they add up to a specific value k. Return a 4-tuple such that its elements&#10;add up to k if there exists such a 4-tuple and None otherwise. If there are&#10;more than one 4-tuple satisfying that condition, return one of them.&lt;br&gt;&#10;Please note that if you want to use a hash table, you can't use python's&#10;dictionary and you should implement your own.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&#10;Limitations: &lt;br&gt;&#10;Array size is not greater than 10^3 &lt;br&gt;&#10;Array's elements are positive integers less than 10^12&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  An optimized algorithm can run in O(n^2)&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -671,8 +671,87 @@
                         </FeedbackLink>
                       </option>
                       <option name="index" value="1" />
-                      <option name="name" value="Hashing (Part 1)" />
-                      <option name="status" value="Unchecked" />
+                      <option name="name" value="Task 1(Part 1)" />
+                      <option name="status" value="Solved" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="hash_table.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="hash_table.py" />
+                                <option name="text" value="" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="11" />
+                                      <option name="offset" value="59" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="return None" />
+                                      <option name="possibleAnswer" value="table = HashTable(1000003)&#10;    for i in range(len(arr)):&#10;        for j in range(i + 1, len(arr)):&#10;            pair = table.get(k - arr[i] - arr[j])&#10;            if pair is not None:&#10;                if i not in pair and j not in pair:&#10;                    return (arr[i], arr[j]) + table.get(k - arr[i] - arr[j])&#10;            table.insert(arr[i] + arr[j], (arr[i], arr[j]))&#10;    return None" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Solved" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Prerequisite: &lt;br&gt;&#10;Read the hashing notebook.&lt;br&gt;&lt;br&gt;&#10;&#10;Task: &lt;br&gt;&#10;The smallest period of a sequence is defined as the smallest positive&#10;(nonzero) integer T such that for every i &lt; len(seq) - T we have &lt;br&gt;&#10;seq[i] = seq[i + T] &lt;br&gt;&#10;Complete smallest_period function such that for every string str,&#10;it returns the str's smallest period.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;Input: seq (A string of lower case characters) &lt;br&gt;&#10;Output: str's smallest period&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&#10;Limitations: &lt;br&gt;&#10;seq size is not greater than 10^6&#10;&lt;div class=&quot;hint&quot;&gt;&#10;    You can solve this problem in linear time using hash&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="2" />
+                      <option name="name" value="Task 2(Part 1)" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
@@ -681,9 +760,61 @@
                             <value>
                               <TaskFile>
                                 <option name="answerPlaceholders">
-                                  <list />
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="8" />
+                                      <option name="offset" value="30" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="return 0" />
+                                      <option name="possibleAnswer" value="# p, q = 27, 10**9 + 7&#10;    # hash_list = hash(str, q, p)&#10;    # offset = p&#10;    # for T in range(1, len(str)):&#10;    #     if is_period(hash_list, T, offset, q):&#10;    #         return T&#10;    #     offset = (offset * p) % q&#10;    return 0" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Solved" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="1" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="0" />
+                                      <option name="offset" value="262" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="" />
+                                      <option name="possibleAnswer" value="def is_period(hash_list, T, offset, q):&#10;    return (hash_list[len(hash_list) - T - 1] * offset) % q == (hash_list[len(hash_list) - 1] - hash_list[T - 1]) % q" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Solved" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="2" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="0" />
+                                      <option name="offset" value="422" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="" />
+                                      <option name="possibleAnswer" value="def hash(str, q, p):&#10;    hash_list = [ord(str[0]) - ord('a') + 1]&#10;    s = 1&#10;    for i in range(1, len(str)):&#10;        s = (s * p) % q&#10;        hash_list.append((hash_list[i - 1] + (ord(str[i]) - ord('a') + 1) * s) % q)&#10;    return hash_list&#10;" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Solved" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="task.py" />
                                 <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -715,7 +846,7 @@
                           <option name="type" value="STEPIK" />
                         </FeedbackLink>
                       </option>
-                      <option name="index" value="2" />
+                      <option name="index" value="3" />
                       <option name="name" value="Hashing(Part 2)" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
