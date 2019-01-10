@@ -1,5 +1,5 @@
 from test_helper import run_common_tests, failed, passed, get_answer_placeholders
-
+from task import *
 
 def test_answer_placeholders():
     placeholders = get_answer_placeholders()
@@ -9,9 +9,14 @@ def test_answer_placeholders():
     else:
         failed()
 
+m = len(inorder1)
+n = len(inorder2)
+printIntersection(inorder1, inorder2, m, n)
 
 if __name__ == '__main__':
-    run_common_tests()
-    # test_answer_placeholders()       # TODO: uncomment test call
+    if finalarray!= [4, 6, 7]:
+        failed("try again")
+
+
 
 

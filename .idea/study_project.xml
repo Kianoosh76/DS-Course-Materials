@@ -54,7 +54,7 @@
                       </option>
                       <option name="index" value="1" />
                       <option name="name" value="Python Practice" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
@@ -251,7 +251,7 @@
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Prerequisite: &lt;br&gt;&#10;Read the complexity analysis notebook.&lt;br&gt;&lt;br&gt;&#10;&#10;Complete the answers&#10;&lt;br&gt;&#10;&#10;&lt;div&gt;&#10;  &lt;h3&gt;Question1&lt;/h3&gt;&#10;  &lt;strong&gt;&#10;    T(n) = T(n - 1) + log(n) * 100&#10;  &lt;br&gt;&#10;    1) &lt;i&gt; O(n ^ 2)&lt;/i&gt; &lt;/br&gt;&#10;    2) &lt;i&gt; O(n)&lt;/i&gt; &lt;/br&gt;&#10;    3) &lt;i&gt; O(n * log(n) ^ 2)&lt;/i&gt; &lt;/br&gt;&#10;    4) &lt;i&gt; O(n * log(n))&lt;/i&gt; &lt;/br&gt;&#10;  &lt;/strong&gt;&#10;  &lt;h3&gt;Question2&lt;/h3&gt;&#10;  &lt;strong&gt;&#10;    T(n) = T(sqrt(n)) * 2 + log(n)&#10;  &lt;br&gt;&#10;    1) &lt;i&gt; O(log(n))&lt;/i&gt; &lt;/br&gt;&#10;    2) &lt;i&gt; O(sqrt(n) * log(n))&lt;/i&gt; &lt;/br&gt;&#10;    3) &lt;i&gt; O(log(n) * log(log(n)))&lt;/i&gt; &lt;/br&gt;&#10;    4) &lt;i&gt; O(sqrt(n))&lt;/i&gt; &lt;/br&gt;&#10;  &lt;/strong&gt;&#10;&lt;/div&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -260,7 +260,7 @@
                       </option>
                       <option name="index" value="1" />
                       <option name="name" value="Algorithms Complexity Analysis" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
@@ -271,7 +271,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="task.py" />
                                 <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -906,7 +906,7 @@
                       </option>
                       <option name="index" value="1" />
                       <option name="name" value="Disjoint Sets" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Failed" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
@@ -915,9 +915,27 @@
                             <value>
                               <TaskFile>
                                 <option name="answerPlaceholders">
-                                  <list />
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="4" />
+                                      <option name="offset" value="27" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO" />
+                                      <option name="possibleAnswer" value="" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Failed" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="task.py" />
                                 <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -944,6 +962,322 @@
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="9" />
+                <option name="name" value="8_DSU(2)" />
+                <option name="stepikChangeStatus" value="Content changed" />
+                <option name="updateDate" value="0" />
+                <option name="taskList">
+                  <list>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Requirements: &lt;br&gt;&#10;Read the DSU notebook. &lt;br&gt;&#10;&#10;&lt;br&gt;&#10;&lt;h1&gt;Vanishing Array&lt;/h1&gt;&#10;&lt;br&gt;&lt;br&gt;&#10;&#10;You are given an array of &lt;strong&gt;n non-negative&lt;/strong&gt; integers. &lt;br&gt;&#10;The integers are vanishing one by one for some unknown reason.&#10;&lt;br&gt;&#10;The order in which they vanish is given to you as a permutation of integers&#10;from 1 to n.&#10;&lt;br&gt;&#10;After each element vanishes you have to find out the maximum sum of unvanished&#10;elements, such that no vanished element is between.&#10;&lt;br&gt;&lt;br&gt;&#10;&#10;&lt;br&gt;&#10;You must fill in the solve function which takes in n, a list of n numbers,&#10;and a list of a permutation 1 to n.&#10;&lt;br&gt;&#10;The function must output a list of answers where the &lt;strong&gt;i&lt;/strong&gt;th&#10;element corresponds to the answer after the first i steps.&#10;&lt;br&gt;&#10;The following conditions are guaranteed:&#10;&lt;p&gt; 1 &amp;le; n &amp;le; 100,000&lt;/p&gt;&#10;&lt;p&gt;0 &amp;le; numbers[i] &amp;le; 1,000,000,000&lt;/p&gt;&#10;&lt;br&gt;&#10;&#10;&lt;h3&gt;Examples&lt;/h3&gt;&#10;&#10;&lt;h4&gt;Example 1&lt;/h4&gt;&#10;n = 4 &lt;br&gt;&#10;numbers = [1,3,2,5] &lt;br&gt;&#10;perm = [3,4,1,2] &lt;br&gt;&#10;output = [5,4,3,0] &lt;br&gt;&#10;&#10;&lt;h4&gt;Example 2&lt;/h4&gt;&#10;n = 5 &lt;br&gt;&#10;numbers = [1,2,3,4,5] &lt;br&gt;&#10;perm = [4,2,3,5,1] &lt;br&gt;&#10;output = [6,5,5,1,0] &lt;br&gt;&#10;&#10;&#10;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&#10;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Try to think backwards.&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Instead of vanishing, start at the end. Then the integers are appearing one by one.&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  When an integer appears, you must check both sides to see if they are already here.&#10;  And for each side present, the sum of this block is increased.&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Blocks are disjoint sets of indices. Some are present. Some are not.&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Consider a DSU with the numbers 1 - n. Whenever an integer appears,&#10;  you must set it's DSU to present and for each of its sides,&#10;  if it is present, you must unite these two and update this DSU's size&#10;  and sum of integers in the original array.&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Introduce a local variable as the answer from the end. Every time an&#10;  integer appears, this answer is changed if the sum of the resulting&#10;  DSU is larger than it.&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  When you are adding an integer, the new answer is the maximum of&#10;  the previous answer and the sum of the currently added DSU.&#10;&lt;/div&gt;&#10;&#10;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="1" />
+                      <option name="name" value="1" />
+                      <option name="status" value="Solved" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="647" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="# TODO" />
+                                      <option name="possibleAnswer" value="if u.size &gt; v.size:&#10;            u, v = v, u" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="1" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="733" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="# TODO" />
+                                      <option name="possibleAnswer" value="u.par = v" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Solved" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="2" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="791" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="# TODO" />
+                                      <option name="possibleAnswer" value="v.size += u.size&#10;        v.sum += u.sum" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Solved" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="3" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="12" />
+                                      <option name="offset" value="1020" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="# TODO&#10;&#9;pass" />
+                                      <option name="possibleAnswer" value="perm2 = [i - 1 for i in perm]&#10;    perm = perm2&#10;    answers = []&#10;    current_answer = 0&#10;    dsu = DisjointSet(n)&#10;&#10;    def add(i, current_answer):&#10;        node = dsu.nodes[i]&#10;        node.added = True&#10;        node.sum = numbers[i]&#10;        if i &gt; 0 and dsu.nodes[i - 1].added:&#10;            dsu.unite(node, dsu.nodes[i - 1])&#10;        if i &lt; n - 1 and dsu.nodes[i + 1].added:&#10;            dsu.unite(node, dsu.nodes[i + 1])&#10;&#10;        parent = dsu.find(node)&#10;        current_answer = max(current_answer, parent.sum)&#10;        return current_answer&#10;&#10;    for i in range(n - 1, -1, -1):&#10;        answers.append(current_answer)&#10;        current_answer = add(perm[i], current_answer)&#10;&#10;    answers.reverse()&#10;    return answers" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Requirements: &lt;br&gt;&#10;Be familiar with the concept of DSU.&#10;&lt;br&gt;&#10;&lt;h1&gt;Matin &amp; Kianoosh&lt;/h1&gt;&#10;&lt;br&gt;&lt;br&gt;&#10;&#10;Matin and Kianoosh are great friends. So great that they always brag about&#10;their points in common to others who couldn't care less. One day, in order&#10;to do this, they decided to wear T-shirts with matching logos. Each logo is&#10;a string of length n with lowercase english letters.&#10;But when they see each other, their strings are different.&#10;&lt;br&gt;&#10;Luckily, a tailor is nearby. The tailor charges 1 dollar for 1 rule. A rule&#10;is a pair of 2 characters. Once a rule is chosen, any of the two that are on either&#10;t-shirts can be changed into one another unlimited amount of times.&#10;&lt;br&gt;&#10;Because Matin and Kianoosh don't like spending money, you must find the&#10;minimum amount of dollars they must spend to make their t-shirts match.&#10;&lt;br&gt;&lt;br&gt;&#10;&#10;&lt;br&gt;&#10;You must fill in the solve function which takes in n, and a, b which are two&#10;strings of length n consisting of lowercase English letters.&#10;&lt;br&gt;&#10;The function outputs a tuple. The first element is the minimum price to pay.&#10;The second is a list of tuples. Each tuple consists of 2 characters and&#10;represent a rule.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&#10;It is known that 1 &amp;le; n &amp;le; 100,000&#10;&lt;br&gt;&#10;&#10;&lt;h3&gt;Examples&lt;/h3&gt;&#10;&#10;&lt;h4&gt;Example 1&lt;/h4&gt;&#10;n = 3 &lt;br&gt;&#10;a = 'abb' &lt;br&gt;&#10;b = 'dad' &lt;br&gt;&#10;output = [2, [('a', 'd'), ('b', 'a')]] &lt;br&gt;&#10;&#10;&lt;h4&gt;Example 2&lt;/h4&gt;&#10;n = 8 &lt;br&gt;&#10;a = 'drpepper' &lt;br&gt;&#10;b = 'cocacola' &lt;br&gt;&#10;output = [7, [('l', 'e'), ('e', 'd'), ('d', 'c'), ('p', 'c'),&#10;('o', 'p'), ('o', 'r'), ('a', 'r')]] &lt;br&gt;&#10;&#10;&#10;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Try to imagine a rule as a permanent edge between the two characters.&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  If ('a', 'b') and ('a', 'c') are two of the rules do we need ('b', 'c')?&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  In order to be able to change k letters into one another, you'll need k-1 rules.&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Whenever a rule is added, it works exactly as a union in their respective DSUs.&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Define a 26 sized DSU. Whenever two characters are different,&#10;  they need to be in the same DSU in the end. So unite them!&#10;&lt;/div&gt;&#10;&#10;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="2" />
+                      <option name="name" value="2" />
+                      <option name="status" value="Solved" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="12" />
+                                      <option name="offset" value="1124" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="# TODO&#10;&#9;pass" />
+                                      <option name="possibleAnswer" value="dsu = DisjointSet(26)&#10;    for i in range(n):&#10;        n1 = dsu.nodes[ord(a[i]) - ord('a')]&#10;        n2 = dsu.nodes[ord(b[i]) - ord('a')]&#10;        dsu.union(n1, n2)&#10;    comps = dsu.get_all_components()&#10;&#10;    ans = 26 - len(comps)&#10;    rules = []&#10;    for i in comps:&#10;        if len(i) &gt; 1:&#10;            for j in range(1, len(i)):&#10;                rules.append((chr(ord('a') + i[0]), chr(ord('a') + i[j])))&#10;&#10;    return ans, rules" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Solved" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Requirements: &lt;br&gt;&#10;Be familiar with the concept of DSU.&#10;&lt;br&gt;&#10;&lt;h1&gt;Slippery slopes&lt;/h1&gt;&#10;&lt;br&gt;&lt;br&gt;&#10;&#10;Kianoosh and n-1 others are trapped in an ice cave. Imagine the cave as a plane. The n people&#10;are standing in n distinct points. Kianoosh decides to go and say hi to each one. But&#10;in order to do so, he can only move up, down, right and left. But the floor is slippery so&#10;he will keep sliding in that direction until he reaches one of the other people who will stop him.&#10;&lt;br&gt;&#10;Unfortunately there might need to be more stopping points in the cave to reach everyone. You&#10;must find the minimum amount of extra stopping points needed to ensure he can reach everyone.&#10;&#10;&lt;br&gt;&#10;You must fill in the solve function which takes in n, and a list of tuples with each points&#10;coordinates.&#10;&lt;br&gt;&#10;The function must output a single number. The minimum amount of extra stopping points needed&#10;to reach every point.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;It is known that 1 &amp;le; n &amp;le; 100, 1 &amp;le; x&lt;sub&gt;i&lt;/sub&gt;, y&lt;sub&gt;i&lt;/sub&gt; &amp;le; 1000&#10;&#10;&lt;br&gt;&#10;&#10;&lt;h3&gt;Examples&lt;/h3&gt;&#10;&#10;&lt;h4&gt;Example 1&lt;/h4&gt;&#10;n = 2 &lt;br&gt;&#10;points = [(2, 1), (1, 2)] &lt;br&gt;&#10;output = 1 &lt;br&gt;&#10;&#10;&lt;h4&gt;Example 2&lt;/h4&gt;&#10;n = 2 &lt;br&gt;&#10;points = [(2, 1), (4, 1)] &lt;br&gt;&#10;output = 0 &lt;br&gt;&#10;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;    If you can get from A to B and from B to C, then you can get from A to C.&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;    Consider points where you can go from each one to the others. What happens if you add a new stop point?&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;    You can go directly from A to B if A.x = B.y or A.y = B.y&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;    Make a new DSU with n sets, each for one point. If you can go directly from A to B, then&#10;    unite their sets. Now how many stopping points do we need?&#10;&lt;/div&gt;&#10;&#10;&#10;&#10;&#10;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="3" />
+                      <option name="name" value="3" />
+                      <option name="status" value="Solved" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="1064" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="# TODO" />
+                                      <option name="possibleAnswer" value="dsu = DisjointSet(n)&#10;    for i in range(n):&#10;        for j in range(i + 1, n):&#10;            if points[i][0] == points[j][0] or points[i][1] == points[j][1]:&#10;                dsu.unite(i, j)&#10;&#10;    return dsu.get_count() - 1" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Requirements: &lt;br&gt;&#10;Be familiar with the concept of DSU.&#10;&lt;br&gt;&#10;&lt;h1&gt;Pricey Walkie-talkie&lt;/h1&gt;&#10;&lt;br&gt;&lt;br&gt;&#10;&#10;Matin and Kianoosh have bought a pair of walkie-talkies. Yet there are some limitations.&#10;They can only send n words through them to the other. And some of the words mean the same thing.&#10;&lt;br&gt;&#10;Kianoosh the ith word has a cost of a&lt;sub&gt;i&lt;/sub&gt; for sending. And he has a message he wants to send.&#10;He can replace each word with any other word with the same meaning. Help kianoosh find the minimum&#10;cost to send his message to Matin.&#10;&#10;&lt;br&gt;&#10;You must fill in the solve function which takes in n, m, a list of words,&#10;a list of costs, and a list of groups and Kianoosh's message.&#10;&lt;br&gt;&lt;br&gt;&#10;n is the total number of words.&#10;&lt;br&gt;&lt;br&gt;&#10;m is the amount of words in Kianoosh's message.&#10;&lt;br&gt;&lt;br&gt;&#10;The list of all the n words and a list of respective prices.&#10;&lt;br&gt;&lt;br&gt;&#10;A list of groups which is a list of tuples where each tuple is the&#10;indices (Index in the above list of words) of words with the same meaning.&#10;&lt;br&gt;&lt;br&gt;&#10;And finally a list of the words in Kianoosh's message.&#10;&lt;br&gt;&lt;br&gt;&#10;The function must output a single integer. The minimum cost.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;It is known that 1 &amp;le; n &amp;le; 10000, 1 &amp;le; m &amp;le; 10000&#10;&#10;&lt;br&gt;&#10;&#10;&lt;h3&gt;Examples&lt;/h3&gt;&#10;&#10;&lt;h4&gt;Example 1&lt;/h4&gt;&#10;n = 2 &lt;br&gt;&#10;points = [(2, 1), (1, 2)] &lt;br&gt;&#10;output = 1 &lt;br&gt;&#10;&#10;&lt;h4&gt;Example 2&lt;/h4&gt;&#10;n = 2 &lt;br&gt;&#10;points = [(2, 1), (4, 1)] &lt;br&gt;&#10;output = 0 &lt;br&gt;&#10;&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;    You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="4" />
+                      <option name="name" value="4" />
+                      <option name="status" value="Solved" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="1294" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="# TODO" />
+                                      <option name="possibleAnswer" value="dsu = DisjointSet(n)&#10;    indices = {}&#10;    for i in range(n):&#10;        dsu.nodes[i].min = prices[i]&#10;        indices[words[i]] = i&#10;&#10;    for group in groups:&#10;        for i in range(len(group)):&#10;            dsu.union(dsu.nodes[group[0]], dsu.nodes[group[i]])&#10;&#10;    price = 0&#10;    for word in message:&#10;        price += dsu.find(dsu.nodes[indices[word]]).min&#10;&#10;    return price" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                  </list>
+                </option>
+                <option name="unitId" value="0" />
+              </Lesson>
+              <Lesson>
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="10" />
                 <option name="name" value="10_Balanced BSTs" />
                 <option name="stepikChangeStatus" value="Content changed" />
                 <option name="updateDate" value="0" />
@@ -1001,7 +1335,7 @@
               <Lesson>
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
-                <option name="index" value="10" />
+                <option name="index" value="11" />
                 <option name="name" value="11_Advanced Data Structures" />
                 <option name="stepikChangeStatus" value="Content changed" />
                 <option name="updateDate" value="0" />
@@ -1059,7 +1393,7 @@
               <Lesson>
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
-                <option name="index" value="11" />
+                <option name="index" value="12" />
                 <option name="name" value="Example" />
                 <option name="stepikChangeStatus" value="Content changed" />
                 <option name="updateDate" value="0" />

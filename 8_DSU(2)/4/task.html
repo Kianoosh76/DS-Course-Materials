@@ -1,0 +1,64 @@
+<html>
+Requirements: <br>
+Be familiar with the concept of DSU.
+<br>
+<h1>Pricey Walkie-talkie</h1>
+<br><br>
+
+Matin and Kianoosh have bought a pair of walkie-talkies. Yet there are some limitations.
+They can only send n words through them to the other. And some of the words mean the same thing.
+<br>
+Kianoosh the ith word has a cost of a<sub>i</sub> for sending. And he has a message he wants to send.
+He can replace each word with any other word with the same meaning. Help kianoosh find the minimum
+cost to send his message to Matin.
+
+<br>
+You must fill in the solve function which takes in n, m, a list of words,
+a list of costs, and a list of groups and Kianoosh's message.
+<br><br>
+n is the total number of words.
+<br><br>
+m is the amount of words in Kianoosh's message.
+<br><br>
+The list of all the n words and a list of respective prices.
+<br><br>
+A list of groups which is a list of tuples where each tuple is the
+indices (Index in the above list of words) of words with the same meaning.
+<br><br>
+And finally a list of the words in Kianoosh's message.
+<br><br>
+The function must output a single integer. The minimum cost.
+<br>
+<br>
+It is known that 1 &le; n &le; 10000, 1 &le; m &le; 10000
+
+<br>
+
+<h3>Examples</h3>
+
+<h4>Example 1</h4>
+n = 2 <br>
+points = [(2, 1), (1, 2)] <br>
+output = 1 <br>
+
+<h4>Example 2</h4>
+n = 2 <br>
+points = [(2, 1), (4, 1)] <br>
+output = 0 <br>
+
+<br>
+<br>
+<div class="hint">
+    Put words with the same meanings in a set. Now how can i get the minimum i wonder??
+</div>
+
+<div class="hint">
+    Implement DSU in the tree way. And add a value of min to each node.
+</div>
+
+<div class="hint">
+    When uniting two sets, the min of the new root is
+    the min of the minimums of the previous two roots.
+</div>
+
+</html>
