@@ -2,27 +2,15 @@
 <project version="4">
   <component name="StudySettings">
     <StudyTaskManager>
-      <option name="VERSION" value="11" />
-      <option name="myUserTests">
-        <map />
-      </option>
       <option name="course">
         <Course>
           <option name="authors">
-            <list>
-              <StepikUserInfo>
-                <option name="firstName" value="kianooshabbasi" />
-                <option name="guest" value="false" />
-                <option name="id" value="-1" />
-                <option name="lastName" value="" />
-              </StepikUserInfo>
-            </list>
+            <list />
           </option>
           <option name="courseMode" value="Course Creator" />
           <option name="courseType" value="PyCharm" />
           <option name="customPresentableName" />
           <option name="description" value="Jupyter Notebooks and Pycharm Edu educational tasks of Dr Sharifi's `Data Structures and Algorithms` course at Sharif University of Technology, Computer Engineering Department." />
-          <option name="fromZip" value="false" />
           <option name="index" value="-1" />
           <option name="language" value="Python" />
           <option name="languageCode" value="en" />
@@ -57,6 +45,12 @@
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
                       <option name="taskFiles">
                         <map>
                           <entry key="task.py">
@@ -66,23 +60,16 @@
                                   <list />
                                 </option>
                                 <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>
                         </map>
                       </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
                     </EduTask>
                   </list>
                 </option>
@@ -115,6 +102,12 @@
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
                       <option name="taskFiles">
                         <map>
                           <entry key="task.py">
@@ -124,23 +117,16 @@
                                   <list />
                                 </option>
                                 <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>
                         </map>
                       </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -160,6 +146,12 @@
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
                       <option name="taskFiles">
                         <map>
                           <entry key="task.py">
@@ -169,23 +161,16 @@
                                   <list />
                                 </option>
                                 <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>
                         </map>
                       </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -205,6 +190,12 @@
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
                       <option name="taskFiles">
                         <map>
                           <entry key="task.py">
@@ -214,23 +205,16 @@
                                   <list />
                                 </option>
                                 <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>
                         </map>
                       </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
                     </EduTask>
                   </list>
                 </option>
@@ -263,6 +247,12 @@
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
                       <option name="taskFiles">
                         <map>
                           <entry key="task.py">
@@ -272,23 +262,16 @@
                                   <list />
                                 </option>
                                 <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>
                         </map>
                       </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
                     </EduTask>
                   </list>
                 </option>
@@ -321,6 +304,12 @@
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
                       <option name="taskFiles">
                         <map>
                           <entry key="task.py">
@@ -330,23 +319,16 @@
                                   <list />
                                 </option>
                                 <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>
                         </map>
                       </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
                     </EduTask>
                   </list>
                 </option>
@@ -379,6 +361,12 @@
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
                       <option name="taskFiles">
                         <map>
                           <entry key="task.py">
@@ -388,23 +376,16 @@
                                   <list />
                                 </option>
                                 <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>
                         </map>
                       </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -421,9 +402,15 @@
                       </option>
                       <option name="index" value="2" />
                       <option name="name" value="Trie" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
                       <option name="taskFiles">
                         <map>
                           <entry key="task.py">
@@ -433,23 +420,16 @@
                                   <list />
                                 </option>
                                 <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>
                         </map>
                       </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -457,7 +437,7 @@
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;utf-8&quot;&gt;&#10;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;&#10;    &lt;title&gt;Trie Task 2&lt;/title&gt;&#10;    &lt;script type=&quot;text/javascript&quot; async src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot; async&gt;&lt;/script&gt;&#10;&lt;/head&gt;&#10;&lt;body dir=&quot;rtl&quot;&gt;&#10;&lt;p&gt;&#10;شما یک Numpad دارید که میتوانید از آن برای نوشتن کلمات کمک بگیرید. numpad شما کلید های 0 تا 9 ای دارد که به هرکدام حروفی از 'a' تا 'z' نسبت داده شده. هیچ حرفی به دو کلید نسبت داده نشده است.&#10;یک نمونه از numpad آمده است:&#10;&lt;/p&gt;&#10;&lt;p dir=&quot;ltr&quot; &gt;&#10;    &lt;table dir=&quot;ltr&quot; align=&quot;center&quot; cellpadding=&quot;10&quot;&gt;&#10;    &lt;tr&gt; &lt;td&gt;0: a e u&lt;/td&gt; &lt;td&gt;1: b l v&lt;/td&gt; &lt;td&gt;2: c m w&lt;/td&gt;&lt;/tr&gt;&#10;    &lt;tr&gt; &lt;td&gt;3: d n x&lt;/td&gt; &lt;td&gt;4: i o y&lt;/td&gt; &lt;td&gt;5: f p z&lt;/td&gt;&lt;/tr&gt;&#10;    &lt;tr&gt; &lt;td&gt;6: g q&lt;/td&gt; &lt;td&gt;7: h r &lt;/td&gt; &lt;td&gt;8: k s &lt;/td&gt;&lt;/tr&gt;&#10;    &lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;9: j t&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&#10;    &lt;/table&gt;&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    از طرفی، یک دیکشنری از کلمات هم به شما داده شده. شما میتوانید از keypad برای نوشتن کلمات استفاده کنید. مثلا برای جمله &quot;Hello World&quot; باید کلید ها به شکلِ&#10;    &lt;p dir=&quot;ltr&quot;&gt;&quot;7 0 1 1 4 2 4 7 1 3&quot;&lt;/p&gt;&#10;وارد شوند. ممکن است یک دنباله از کلید ها بتواند نمایانگر چند عبارت از دیکشنری باشد یا حتی نمایانگر عبارتی از دیکشنری نباشد. میگوییم یک مجموعه از کلمات، یک دنباله از کلیدها را پوشش میدهد، اگر بتوان یک عبارت از آن کلمات ساخت که دنباله کلیدها نشان دهنده آن عبارت باشد. یک عبارت از به هم چسباندنِ چند کلمه ساخته میشود. حالا شما باید با گرفتنِ یک دیکشنری، یک numpad و یک دنباله از کلید ها، اندازه کوچکترین مجموعه ای از کلمات که دنباله کلیدها را پوشش میدهد، خروجی دهید.&#10;&lt;/p&gt;&#10;&lt;hr/&gt;&#10;ورودی: &lt;br/&gt;&#10;پارامترهای تابع main که باید آن را کامل کنید.&lt;br/&gt;&#10;Dictionary, Numpad, Keyset &lt;br/&gt;&#10;توضیح بیشتر:&lt;br/&gt;&#10;&lt;p dir=&quot;ltr&quot;&gt;&#10;    dictionary = ['worda','wordb', 'wordc'] &lt;br/&gt;&#10;    numpad[i] = array of chars corresponding to i : [['a','b','c'] , ['e','f','g'] , ...] &lt;br/&gt;&#10;    Keyset = array of keys = [0,1,2,3,4,5,...] &lt;br/&gt;&#10;&lt;/p&gt;&#10;&lt;hr/&gt;&#10;محدودیت ها:&lt;br&gt;&#10;&lt;p dir=&quot;ltr&quot;&gt;&#10;    dictionary_size \(\le 10^4\) &lt;br&gt;&#10;    Keyset_size \(\le 10^3\)&#10;&lt;/p&gt;&#10;&lt;hr/&gt;&#10;خروجی تابع باید اندازه کوچکترین مجموعه ای باشد که دنباله کلیدهای داده شده را پوشش میدهد.&#10;&lt;hr/&gt;&#10;ورودی و خروجی نمونه:&#10;&lt;p dir=&quot;ltr&quot;&gt;&#10;    input: &lt;br&gt;&#10;    dictionary = [&quot;am&quot;,&quot;axe&quot;,&quot;exam&quot;,&quot;boy&quot;,&quot;colour&quot;,&quot;dam&quot;,&quot;dot&quot;,&quot;donkey&quot;,&quot;fox&quot;,&quot;new&quot;,&quot;prim&quot;,&quot;prime&quot;,&quot;primeval&quot;,&quot;pry&quot;,&quot;the&quot;,&quot;this&quot;,&quot;theory&quot;,&quot;van&quot;]&lt;br&gt;&#10;    numpad = [['a','b','c'],['d','e','f'],['g','h'],['i','j','y'], ['l','m','n'],['o','p','q'],['r','s'],['t','u'], ['v','w','x'],['k','z']]&lt;br&gt;&#10;    keyset = [7,2,1,5,6,3,4,1,8,0,4]&lt;br&gt;&#10;    output:&lt;br&gt;&#10;    2&#10;&lt;/p&gt;&#10;&lt;/body&gt;&#10;&lt;div class=&quot;hint&quot; dir=&quot;ltr&quot;&gt;&#10;    dynamic programming. &lt;br/&gt;&#10;    f[0] = 0; &lt;/br&gt;&#10;    f[i] = min{ f[j] + 1 };  for all 0 &lt;= j &lt; i and S[j+1 .. i] is a word.&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -465,10 +445,16 @@
                         </FeedbackLink>
                       </option>
                       <option name="index" value="3" />
-                      <option name="name" value="BST" />
-                      <option name="status" value="Unchecked" />
+                      <option name="name" value="Trie2" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
                       <option name="taskFiles">
                         <map>
                           <entry key="task.py">
@@ -477,24 +463,17 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>
                         </map>
                       </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -510,10 +489,16 @@
                         </FeedbackLink>
                       </option>
                       <option name="index" value="4" />
-                      <option name="name" value="Heap" />
+                      <option name="name" value="BST" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
                       <option name="taskFiles">
                         <map>
                           <entry key="task.py">
@@ -523,23 +508,60 @@
                                   <list />
                                 </option>
                                 <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>
                         </map>
                       </option>
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="5" />
+                      <option name="name" value="Heap" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
                       <option name="testsText">
                         <map>
                           <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
                         </map>
                       </option>
                       <option name="updateDate" value="0" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
                     </EduTask>
                   </list>
                 </option>
@@ -572,6 +594,12 @@
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
                       <option name="taskFiles">
                         <map>
                           <entry key="task.py">
@@ -581,23 +609,16 @@
                                   <list />
                                 </option>
                                 <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>
                         </map>
                       </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -617,6 +638,12 @@
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
                       <option name="taskFiles">
                         <map>
                           <entry key="task.py">
@@ -626,23 +653,16 @@
                                   <list />
                                 </option>
                                 <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>
                         </map>
                       </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
                     </EduTask>
                   </list>
                 </option>
@@ -675,6 +695,12 @@
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
                       <option name="taskFiles">
                         <map>
                           <entry key="task.py">
@@ -684,23 +710,16 @@
                                   <list />
                                 </option>
                                 <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>
                         </map>
                       </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -720,6 +739,12 @@
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
                       <option name="taskFiles">
                         <map>
                           <entry key="task.py">
@@ -729,23 +754,16 @@
                                   <list />
                                 </option>
                                 <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>
                         </map>
                       </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
                     </EduTask>
                   </list>
                 </option>
@@ -778,6 +796,12 @@
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
                       <option name="taskFiles">
                         <map>
                           <entry key="task.py">
@@ -787,23 +811,16 @@
                                   <list />
                                 </option>
                                 <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>
                         </map>
                       </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
                     </EduTask>
                   </list>
                 </option>
@@ -836,6 +853,12 @@
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
                       <option name="taskFiles">
                         <map>
                           <entry key="task.py">
@@ -845,23 +868,16 @@
                                   <list />
                                 </option>
                                 <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>
                         </map>
                       </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
                     </EduTask>
                   </list>
                 </option>
@@ -894,6 +910,12 @@
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
                       <option name="taskFiles">
                         <map>
                           <entry key="task.py">
@@ -903,23 +925,16 @@
                                   <list />
                                 </option>
                                 <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>
                         </map>
                       </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
                     </EduTask>
                   </list>
                 </option>
@@ -952,6 +967,12 @@
                       <option name="status" value="Solved" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
                       <option name="taskFiles">
                         <map>
                           <entry key="task.py">
@@ -979,23 +1000,16 @@
                                   </list>
                                 </option>
                                 <option name="highlightErrors" value="true" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>
                         </map>
                       </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
                     </EduTask>
                   </list>
                 </option>
@@ -1004,6 +1018,10 @@
             </list>
           </option>
         </Course>
+      </option>
+      <option name="VERSION" value="9" />
+      <option name="myUserTests">
+        <map />
       </option>
     </StudyTaskManager>
   </component>
