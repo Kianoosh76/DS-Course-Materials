@@ -1,0 +1,34 @@
+<html dir="rtl">
+پیش‌نیاز: <br>
+آشنایی با داده‌ساختار لیست پیوندی
+<br>
+<br>
+دو node متمایز در یک لیست پیوندی دوسویه را با هم جابه‌جا کنید. توجه داشته باشید که این دو node ممکن است پشت سر هم باشند.
+<br>
+انتظار می‌رود پیچیدگی تابع شما از (O(1 باشد.
+<br>
+nodeها به شکل زیر تعریف شده‌اند:
+<pre dir="ltr">
+<code>
+  class Node:
+    def __init__(self, data, next_node=None, prev_node=None):
+      self.data = data
+      self.next = next_node
+      self.prev = prev_node
+</code>
+</pre>
+self.prev برای node ابتدایی و self.next برای node انتهایی برابر None هستند.
+<br>
+<b>توجه داشته باشید که برای قبول شدن تابعتان، نباید در آن node جدیدی تعریف کنید یا مقادیر nodeها را تغییر دهید.</b>
+<br>
+<br>
+<b>ورودی</b>
+<br>
+nodeهایی که باید با هم جابه‌جا شوند.
+<br>
+<b>خروجی</b>
+<br>
+ندارد.
+<br>
+
+</html>
