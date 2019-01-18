@@ -1,22 +1,38 @@
-<html>
-Prerequisite: <br>
-Read the hashing notebook.<br><br>
-
-Task: <br>
-Complete the function answer. Given an array of integers arr your
-function has to check if there exist four elements in the array such that
-they add up to a specific value k. Return a 4-tuple such that its elements
-add up to k if there exists such a 4-tuple and None otherwise. If there are
-more than one 4-tuple satisfying that condition, return one of them.<br>
-Please note that if you want to use a hash table, you can't use python's
-dictionary and you should implement your own.
-<br>
-<br>
-
-Limitations: <br>
-Array size is not greater than 10^3 <br>
-Array's elements are positive integers less than 10^12<br>
-<div class="hint">
-  An optimized algorithm can run in O(n^2)
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+یکی از روش‌های تشخیص ایرادات تایپی (typoها) در متون و پیشنهاد کلمه‌های جایگزین
+استفاده از جدول درهم‌ سازیست. در این سوال می‌خواهیم که یک مدل ساده برنامه spell checker
+را پیاده سازی کنیم.<br>
+شما باید پیاده سازی توابع setup و suggestions را کامل کنید. تابع setup
+یکبار در ابتدای برنامه صدا زده می‌شود و کل کلمات صحیح موجود در دیکشنری
+به عنوان ورودی به آن داده می‌شود. پس از صدا زدن تابع setup، با هر بار صدا زدن
+تابع suggestions این تابع باید یک دوتایی برگرداند که مقدار اول آن True است در صورتیکه
+تایپ کلمه صحیح باشد(کلمه در دیکشنری موجود باشد) و در غیر اینصورت false است.
+مقدار دوم این دوتایی درصورتی که در کلمه غلط نگراشی موجود نبود یک مجموعه تهی
+و در غیر این صورت مجموعه‌ای از کلمات مشابه آن کلمه است. یک کلمه مشابه کلمه‌ای است که نسبت
+به کلمه ورودی دقیقا یک کارکتر بیشتر یا دقیقا یک کاراکتر کمتر داشته باشد
+یا اگر تعداد کاراکترها یکی بود در دقیقا یک کارکتر متفاوت باشند.
+ترتیب کلمات در لیست خروجی اهمیتی ندارند. برای درک بهتر
+به مثال مراجعه کنید.<br><br>
+مثال:<br>
+فرض کنید تابع setup با ورودی {'hello', 'bye', 'salaam', 'salam'} صدا زده شود
+سپس خروجی هرکدام از توابع زیر، به شکل زیر است.<br>
+<div dir="ltr">
+suggestions("bye")<br>
+suggestions("hallo")<br>
+suggestions("hablo")<br>
+suggestions("salaa")<br>
+suggestions("aye")<br>
+Output:<br>
+(True, {})<br>
+(False, {"hello"})<br>
+(False, {})<br>
+(False, {"salaam", "salam"})<br>
+(False, {"bye"})<br>
 </div>
+</body>
 </html>

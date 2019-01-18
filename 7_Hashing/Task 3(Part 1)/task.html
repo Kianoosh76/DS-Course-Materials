@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+دوره تناوب یک دنباله seq برابر است با کوچک‌ترین عدد مثبت(نا صفر) T که به ازای هر
+<div dir="ltr">
+    i < len(seq) - T
+</div>
+داشته باشیم
+<div dir="ltr">
+    seq[i] = seq[i + T]
+</div>
+تابع period را به گونه‌ای کامل کنید که به ازای هر رشته str دوره تناوب str را
+برگرداند. تضمین می‌شود که رشته ورودی دوره تناوبی کمتر از طولش دارد.<br><br>
+محدودیت‌ها:<br>
+سایز رشته str بیشتر از 6^10 نیست<br>
+کاراکترهای رشته حروف lowercase انگلیسی هستند.<br><br>
+مثال:<br>
+<div dir="ltr">
+    period("aabbaabb")<br>
+    period("aaa")<br>
+    Output:<br>
+    4<br>
+    1<br>
+</div>
+<div class="hint">
+    با کمک درهم‌سازی می‌توانید مسئله را در زمان خطی حل کنید
+</div>
+</body>
+</html>

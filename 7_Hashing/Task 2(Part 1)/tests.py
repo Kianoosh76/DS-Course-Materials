@@ -1,39 +1,38 @@
 import random
-import string
-import task
-from test_helper import test_function
+from task import answer
+from test_helper import failed
 
 
-def sol(str):
-    p, q = 27, 10 ** 9 + 7
-    hash_list = sol_hash(str, q, p)
-    offset = p
-    for T in range(1, len(str)):
-        if sol_is_period(hash_list, T, offset, q):
-            return T
-        offset = (offset * p) % q
+def solution(arr, k):
+    sums = {}
+    for i in range(len(arr)):
+        for j in range(i + 1, len(arr)):
+            if k - arr[i] - arr[j] in sums:
+                pair = sums[k - arr[i] - arr[j]]
+                if i not in pair and j not in pair:
+                    return (arr[i], arr[j]) + (arr[pair[0]], arr[pair[1]])
+            sums[arr[i] + arr[j]] = (i, j)
     return None
 
 
-def sol_is_period(hash_list, T, offset, q):
-    return (hash_list[len(hash_list) - T - 1] * offset) % q == (hash_list[len(hash_list) - 1] - hash_list[T - 1]) % q
-
-
-def sol_hash(str, q, p):
-    hash_list = [ord(str[0]) - ord('a') + 1]
-    s = 1
-    for i in range(1, len(str)):
-        s = (s * p) % q
-        hash_list.append((hash_list[i - 1] + (ord(str[i]) - ord('a') + 1) * s) % q)
-    return hash_list
-
-
 def generate_test():
-    T = random.randint(0, 10 ** 4)
-    return ''.join(random.choice(string.ascii_lowercase) for i in range(T)) * (10 ** 5 // T)
+    return [random.randint(0, 10 ** 12) for i in range(random.randint(10, 1000))]
 
 
 if __name__ == '__main__':
     for i in range(5):
-        str = generate_test()
-        test_function(sol(str), task.smallest_period, str)
+        arr = generate_test()
+        values = random.sample(arr, 4)
+        result = answer(arr, sum(values))
+        if result is None or len(set(result)) < 4 or sum(result) != sum(values):
+            failed()
+    for i in range(3):
+        arr = generate_test()
+        value = random.randint(0, 10 ** 12)
+        result = answer(arr, value)
+        ans = solution(arr, value)
+        if ans is None and result is not None:
+            failed()
+        elif ans is not None:
+            if len(set(result)) < 4 or sum(result) != sum(ans):
+                failed()
