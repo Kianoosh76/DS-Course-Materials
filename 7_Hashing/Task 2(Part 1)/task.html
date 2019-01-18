@@ -1,23 +1,33 @@
-<html>
-Prerequisite: <br>
-Read the hashing notebook.<br><br>
-
-Task: <br>
-The smallest period of a sequence is defined as the smallest positive
-(nonzero) integer T such that for every i < len(seq) - T we have <br>
-seq[i] = seq[i + T] <br>
-Complete smallest_period function such that for every string str,
-it returns the str's smallest period.
-<br>
-<br>
-Input: seq (A string of lower case characters) <br>
-Output: str's smallest period
-<br>
-<br>
-
-Limitations: <br>
-seq size is not greater than 10^6
-<div class="hint">
-    You can solve this problem in linear time using hash
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+تابع answer را کامل کنید. این تابع به عنوان ورودی یک آرایه از اعداد arr و
+یک عدد k را می‌گیرد و بررسی می‌کند که آیا ۴ عدد با اندیس‌های متمایز در آرایه وجود دارند
+که مجموعشان برابر k بشود یا خیر. در صورت وجود این ۴ عدد باید آن‌ها را به شکل
+یک ۴تایی برگردانید و اگر چنین ۴تایی وجود نداشت مقدار None را برگردانید. اگر بیش از یک ۴تایی
+وجود داشت یکی از آن‌ها را به دلخواه برگردانید.<br><br>
+توجه:<br>
+در صورتی‌ که می‌خواهید از جدول درهم‌سازی استفاده کنید، باید پیاده سازی hash_table.py
+را کامل کرده و از آن استفاده کنید و نمی‌توانید از dictionary یا داده ساختارهای
+مشابه پایتون استفاده کنید.<br><br>
+محدودیت‌ها:<br>
+اندازه آرایه arr از 3^10 بیشتر نیست<br>
+عناصر آرایه اعداد صحیح مثبت کمتر از 12^10 هستند<br><br>
+مثال:<br>
+<div dir="ltr">
+answer([1, 2, 3, 4, 5], 12)<br>
+answer([1, 2, 3, 4], 20)<br>
+answer([1, 1, 1, 1, 1, 1], 4)<br>
+Output:<br>
+(1, 2, 4, 5)<br>
+None<br>
+(1, 1, 1, 1)<br>
 </div>
+<div class="Hint">
+    یک الگوریتم بهینه برای این سوال می‌تواند در زمان (O(n^2 اجرا شود
+</div>
+</body>
 </html>

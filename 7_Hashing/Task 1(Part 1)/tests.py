@@ -1,36 +1,48 @@
+import task
 import random
-from task import answer
+import string
+from time_limit import put_limit
 from test_helper import failed
 
 
-def solution(arr, k):
-    sums = {}
-    for i in range(len(arr)):
-        for j in range(i + 1, len(arr)):
-            if k - arr[i] - arr[j] in sums:
-                return (arr[i], arr[j]) + sums[k - arr[i] - arr[j]]
-            sums[arr[i] + arr[j]] = (arr[i], arr[j])
-    return None
+def sol_setup(dictionary):
+    global words
+    words = set(dictionary)
 
 
-def generate_test():
-    return [random.randint(0, 10 ** 12) for i in range(random.randint(10, 1000))]
+def sol_suggestions(word):
+    result = set()
+    is_legit = word in words
+    if not is_legit:
+        # add char
+        for i in range(len(word) + 1):
+            for char in string.ascii_lowercase:
+                possible = word[:i] + char + word[i:]
+                if possible in words:
+                    result.add(possible)
+        # remove char
+        for i in range(len(word)):
+            possible = word[:i] + word[i + 1:]
+            if possible in words:
+                result.add(possible)
+        # change char
+        for i in range(len(word)):
+            for char in string.ascii_lowercase:
+                possible = word[:i] + char + word[i + 1:]
+                if possible in words:
+                    result.add(possible)
+    return is_legit, result
 
 
 if __name__ == '__main__':
-    for i in range(5):
-        arr = generate_test()
-        values = random.sample(arr, 4)
-        result = answer(arr, sum(values))
-        if result is None or len(set(result)) < 4 or sum(result) != sum(values):
-            failed()
-    for i in range(3):
-        arr = generate_test()
-        value = random.randint(0, 10 ** 12)
-        result = answer(arr, value)
-        ans = solution(arr, value)
-        if ans is None != result is None:
-            failed()
-        elif ans is not None:
-            if len(set(result)) < 4 or sum(result) != sum(ans):
-                failed()
+    put_limit(10)
+    try:
+        dic = {''.join(random.choice(string.ascii_lowercase) for _ in range(random.randint(1, 50))) for _ in range(10000)}
+        test = {''.join(random.choice(string.ascii_lowercase) for _ in range(random.randint(1, 10))) for _ in range(10000)}
+        task.setup(dic)
+        sol_setup(dic)
+        for word in test:
+            if task.suggestions(word) != sol_suggestions(word):
+                failed("Wrong Answer!")
+    except Exception:
+        failed("Timed Out!")

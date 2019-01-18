@@ -1,22 +1,13 @@
-def smallest_period(str):
-    p, q = 27, 10**9 + 7
-    hash_list = hash(str, q, p)
-    offset = p
-    for T in range(1, len(str)):
-        if is_period(hash_list, T, offset, q):
-            return T
-        offset = (offset * p) % q
-    return 0
+from hash_table import HashTable
 
 
-def is_period(hash_list, T, offset, q):
-    return (hash_list[len(hash_list) - T - 1] * offset) % q == (hash_list[len(hash_list) - 1] - hash_list[T - 1]) % q
-
-
-def hash(str, q, p):
-    hash_list = [ord(str[0]) - ord('a') + 1]
-    s = 1
-    for i in range(1, len(str)):
-        s = (s * p) % q
-        hash_list.append((hash_list[i - 1] + (ord(str[i]) - ord('a') + 1) * s) % q)
-    return hash_list
+def answer(arr, k):
+    table = HashTable(1000003)
+    for i in range(len(arr)):
+        for j in range(i + 1, len(arr)):
+            pair = table.get(k - arr[i] - arr[j])
+            if pair is not None:
+                if i not in pair and j not in pair:
+                    return (arr[i], arr[j]) + (arr[pair[0]], arr[pair[1]])
+            table.insert(arr[i] + arr[j], (i, j))
+    return None
